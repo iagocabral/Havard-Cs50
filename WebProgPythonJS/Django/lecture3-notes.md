@@ -72,3 +72,9 @@ urls.py - table of contents of all urls
         path("<str:name>", views.greet, name="greet")**,
         ```
 
+- Renderizando um Html nas views, at hello/views.py
+    ```
+        return render(request, "hello/index.html")
+    ```
+
+
