@@ -77,4 +77,10 @@ urls.py - table of contents of all urls
         return render(request, "hello/index.html")
     ```
 
+- Create an app called newyear: python manage.py startapp newyear
+- Add newyear in stalled apps
+- create url -> create views -> create templates/newyear -> create HTML
+- using python at HTML -> {% PYTHON CODE %}
+
+
 
